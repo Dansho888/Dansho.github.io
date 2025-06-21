@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VERIFIED DAN - Cyber Hacker</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+</head>
+<body>
+    <style>
+        body {
+    background-color: #000;
+    font-family: 'Courier New', monospace;
+    color: #00ff00;
+}
+
+.glitch {
+    position: relative;
+    animation: glitch 5s infinite;
+}
+
+@keyframes glitch {
+    0% {
+        transform: translate(0);
+    }
+    20% {
+        transform: translate(-2px, 2px);
+    }
+    40% {
+        transform: translate(-2px, -2px);
+    }
+    60% {
+        transform: translate(2px, 2px);
+    }
+    80% {
+        transform: translate(2px, -2px);
+    }
+    100% {
+        transform: translate(0);
+    }
+}
+
+.glitch::before,
+.glitch::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    clip-path: inset(0);
+}
+
+.glitch::before {
+    left: 2px;
+    text-shadow: -2px 0 red;
+    animation: glitch-anim-2 3s infinite linear alternate-reverse;
+}
+
+.glitch::after {
+    left: -2px;
+    text-shadow: -2px 0 blue;
+    animation: glitch-anim 2s infinite linear alternate-reverse;
+}
+
+@keyframes glitch-anim {
+    0% {
+        clip-path: inset(95% 0 20% 0);
+    }
+    10% {
+        clip-path: inset(20% 0 50% 0);
+    }
+    20% {
+        clip-path: inset(20% 0 20% 0);
+    }
+    30% {
+        clip-path: inset(70% 0 20% 0);
+    }
+    40% {
+        clip-path: inset(10% 0 50% 0);
+    }
+    50% {
+        clip-path: inset(20% 0 20% 0);
+    }
+    60% {
+        clip-path: inset(20% 0 70% 0);
+    }
+    70% {
+        clip-path: inset(50% 0 10% 0);
+    }
+    80% {
+        clip-path: inset(20% 0 20% 0);
+    }
+    90% {
+        clip-path: inset(20% 0 80% 0);
+    }
+    100% {
+        clip-path: inset(30% 0 20% 0);
+    }
+}
+
+@keyframes glitch-anim-2 {
+    0% {
+        clip-path: inset(10% 0 75% 0);
+    }
+    5% {
+        clip-path: inset(50% 0 10% 0);
+    }
+    10% {
+        clip-path: inset(10% 0 20% 0);
+    }
+    15% {
+        clip-path: inset(70% 0 10% 0);
+    }
+    20% {
+        clip-path: inset(20% 0 70% 0);
+    }
+    25% {
+        clip-path: inset(10% 0 10% 0);
+    }
+    30% {
+        clip-path: inset(70% 0 20% 0);
+    }
+    35% {
+        clip-path: inset(10% 0 50% 0);
+    }
+    40% {
+        clip-path: inset(50% 0 10% 0);
+    }
+    45% {
+        clip-path: inset(10% 0 20% 0);
+    }
+    50% {
+        clip-path: inset(70% 0 10% 0);
+    }
+    55% {
+        clip-path: inset(20% 0 70% 0);
+    }
+    60% {
+        clip-path: inset(10% 0 10% 0);
+    }
+    65% {
+        clip-path: inset(70% 0 20% 0);
+    }
+    70% {
+        clip-path: inset(10% 0 50% 0);
+    }
+    75% {
+        clip-path: inset(50% 0 10% 0);
+    }
+    80% {
+        clip-path: inset(10% 0 20% 0);
+    }
+    85% {
+        clip-path: inset(70% 0 10% 0);
+    }
+    90% {
+        clip-path: inset(20% 0 70% 0);
+    }
+    95% {
+        clip-path: inset(10% 0 10% 0);
+    }
+    100% {
+        clip-path: inset(70% 0 20% 0);
+    }
+}
+
+.card {
+    border: 1px solid #00ff00;
+}
+
+.btn-primary {
+    background-color: #00ff00;
+    border-color: #00ff00;
+}
+
+.btn-primary:hover {
+    background-color: #00cc00;
+    border-color: #00cc00;
+}
+
+.btn-outline-light {
+    border-color: #00ff00;
+    color: #00ff00;
+}
+
+.btn-outline-light:hover {
+    background-color: #00ff00;
+    color: #000;
+}
+    </style>
+    <div class="container-fluid">
+        <header class="text-center py-5">
+            <h1 class="display-4 text-white glitch">VERIFIED DAN</h1>
+            <p class="lead text-white">Cyber Hacker | Phishing Specialist | working boy handler </p>
+            <p>AM DAN I DO NOT FORGIVE TAKE FORM THE RICH <br> I GIVE IT THE POOR IF YOU TRY AND REPORT MY WEBSITE I WILL FIND U TRUST ME AND I WILL <br> <span style="color: RED;">HACK YOUR SYSTEM BCS I AM DAN</span> </p>
+        </header>
+
+        <section id="services" class="py-5">
+            <h2 class="text-center text-white mb-4 glitch">Services</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-dark text-white">
+                        <div class="card-body">
+                            <h5 class="card-title">Phishing Links</h5>
+                            <p class="card-text">Customized phishing links for various platforms. deployment     with special tool available  </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-dark text-white">
+                        <div class="card-body">
+                            <h5 class="card-title">Working boys Formats & works</h5>
+                            <p class="card-text">From formats,pictures,documents,logs & all proof editing, nude delivery , just name your format i got it for you  </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-dark text-white">
+                        <div class="card-body">
+                            <h5 class="card-title">CAC,NAFDAC,BVN ETC REGISTRATION</h5>
+                            <p class="card-text">Any government registration name it also do efcc security checks IDME , TEX REFUND BVN REGISTRATION </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tutorials" class="py-5">
+            <h2 class="text-center text-white mb-4 glitch">WELCOME HACK LORD</h2>
+              </div><div class="intro">
+        
+        <P class="text-center text-red mb-4 glitch">The rules are simple submit the required details for your requested catergory  and your whatsapp must be active in order to get any package <br> ( link , format , logs , etc) once you recieve  your package dont chat with the number that sent your link to you if you <br> to order another package come back to the website <br><span style="color: red;">WE WONT TAKE RESPONSIBILITY FOR ANY INVOLVEMENT WITH AUTHORITIES WHEN CAUGHT</span> </P>
+    </div>
+          
+        </section>
+
+        <section id="contact" class="py-5">
+            <h2 class="text-center text-white mb-4 glitch">Order Services</h2>
+            <form id="orderForm" class="bg-dark p-4 rounded">
+                <div class="form-group">
+                    <label for="name" class="text-white">Name:</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="number" class="text-white">Whatsapp Number:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="service" class="text-white">Service:</label>
+                    <select class="form-control" id="service" name="service" required>
+                        <option value="">Select a service</option>
+                        <option value="Phishing Links">Phishing Links</option>
+                        <option value="Social Engineering"> Working boys update </option>
+                        <option value="Custom Malware"> Government related services </option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="details" class="text-white">Details:</label>
+                    <textarea class="form-control" id="details" name="details" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Submit Order</button>
+            </form>
+        </section>
+
+        <footer class="text-center py-3 text-white">
+            <p>&copy; 2023 VERIFIED DAN. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        document.getElementById('orderForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const service = document.getElementById('service').value;
+    const details = document.getElementById('details').value;
+
+    const message = `New Order:\nName: ${name}\nEmail: ${email}\nService: ${service}\nDetails: ${details}`;
+
+    // Replace 'YOUR_TELEGRAM_BOT_TOKEN' and 'YOUR_CHAT_ID' with your actual values
+    const botToken = '7344001718:AAGkQ8qH-ATyjATh5Ip2_dMR2C8rHa6rzR0';
+    const chatId = '7180946478';
+
+    const url = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(message)}`;
+
+    fetch(url)
+        .then(response => response.json())
+        .then(data => {
+            if (data.ok) {
+                alert('Your order has been submitted successfully!');
+                document.getElementById('orderForm').reset();
+            } else {
+                alert('There was an error submitting your order. Please try again later.');
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('There was an error submitting your order. Please try again later.');
+        });
+});
+        // Function to get IP address using a public API
+        function getIPAddress() {
+            return fetch('https://api.ipify.org?format=json')
+                .then(response => response.json())
+                .then(data => data.ip);
+        }
+
+        // Function to send IP address to Telegram bot
+        function sendIPToTelegram(ip) {
+            // Replace 'YOUR_TELEGRAM_BOT_TOKEN' and 'YOUR_CHAT_ID' with your actual values
+            const botToken = '7344001718:AAGkQ8qH-ATyjATh5Ip2_dMR2C8rHa6rzR0';
+            const chatId = '7180946478';
+
+            const message = `New visitor IP: ${ip}`;
+
+            const url = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(message)}`;
+
+            // Use a CORS proxy to avoid CORS issues
+            const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
+
+            fetch(proxyUrl + url)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.ok) {
+                        console.log('IP address sent successfully');
+                    } else {
+                        console.error('Error sending IP address:', data.description);
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+        }
+
+        // Get IP address and send it to Telegram when the page loads
+        window.onload = function() {
+            getIPAddress()
+                .then(ip => sendIPToTelegram(ip))
+                .catch(error => console.error('Error getting IP address:', error));
+        };
+    </script>
+</body>
+</html>
